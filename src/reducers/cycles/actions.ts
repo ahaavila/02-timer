@@ -15,20 +15,14 @@ export function addNewCycleAction(newCycle: Cycle) {
   }
 }
 
-export function interruptCurrentCycleAction(activeCycleId: string | null) {
+export function interruptCurrentCycleAction() {
   return {
     type: ActionTypes.INTERRUPT_CURRENT_CYCLE,
-    payload: {
-      activeCycleId,
-    },
   }
 }
 
-export function markCurrentCycleAsFinishedAction(activeCycleId: string | null) {
+export function markCurrentCycleAsFinishedAction() {
   return {
     type: ActionTypes.MARK_CURRENT_CYCLE_AS_FINISHED,
-    payload: {
-      activeCycleId,
-    },
   }
 }
