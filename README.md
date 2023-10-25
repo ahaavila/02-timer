@@ -1,27 +1,31 @@
-# React + TypeScript + Vite
+# Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was developed to be like a Promodoro tool. If you are a developer and want to keep the focus on a task, use it, it will be really good for you.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Screenshot
 
-- Configure the top-level `parserOptions` property like this:
+![](./home-page.png)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+![](./history-page.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Styled-components
+- Flexbox
+- Mobile-first workflow
+- React
+- Reducers
+- Context API
